@@ -18,6 +18,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a6lte/proprietary/vendor/etc/wifi/nvram.txt_c5:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_c5 \
     vendor/samsung/a6lte/proprietary/vendor/etc/yas_set.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/yas_set.cfg \
     vendor/samsung/a6lte/proprietary/vendor/firmware/bcm4345C5_V0069.0172.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4345C5_V0069.0172.hcd \
+    vendor/samsung/a6lte/proprietary/vendor/firmware/cs35l40-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-dsp1-spk-prot-calib.bin \
+    vendor/samsung/a6lte/proprietary/vendor/firmware/cs35l40-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-dsp1-spk-prot.bin \
+    vendor/samsung/a6lte/proprietary/vendor/firmware/cs35l40-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-dsp1-spk-prot.wmfw \
     vendor/samsung/a6lte/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
     vendor/samsung/a6lte/proprietary/vendor/firmware/setfile_2p6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p6.bin \
     vendor/samsung/a6lte/proprietary/vendor/firmware/setfile_2p6_front.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p6_front.bin \
