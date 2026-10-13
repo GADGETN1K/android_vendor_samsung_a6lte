@@ -36,3 +36,11 @@ PRODUCT_PACKAGES += \
     libsynaFpSensorTestNwd \
     libexynoscamera \
     libexynoscamera3
+
+# Stock NFC HAL (S3NRN81)
+PRODUCT_COPY_FILES += \
+    vendor/samsung/a6lte/proprietary/vendor/etc/nfc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn81_rfreg.bin \
+    vendor/samsung/a6lte/proprietary/vendor/firmware/nfc/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn81_firmware.bin
+
+PRODUCT_PACKAGES += \
+    sec.android.hardware.nfc@1.2-service
